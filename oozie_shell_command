@@ -1,0 +1,14 @@
+
+$ ./bin/mkdistro.sh -DskipTests <options>
+$ ./bin/oozie-setup.sh sharelib create -fs <FS_URI> [-locallib <PATH>]
+$ ./bin/ooziedb.sh create -sqlfile oozie.sql -run
+$ ./bin/oozied.sh start
+$ ./bin/oozie admin -oozie hhtp://localhost:11000 -status
+$ ./bin/oozied.sh stop
+
+
+//check sharelib
+
+$ ./bin/oozie admin shareliblist
+$ ./bin/oozie admin sharelibupdate
+
