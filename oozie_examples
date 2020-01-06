@@ -1,0 +1,11 @@
+examples are provided in oozie release
+
+to use them , upload folder in your hdfs file system
+
+oozie need 
+job.properties
+workflow.xml
+files to run
+
+$ oozie job -oozie http://localhost:11000 -config [job.properties path file] -run
+
