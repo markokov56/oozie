@@ -1,0 +1,14 @@
+oozie 5.2.0
+
+download release here 
+
+untar this file and cp the folder it in local directory : for example:  /usr/lib
+
+then setup bashrc file
+add oozie bin to PATH
+and source to save updates
+
+
+
+
+

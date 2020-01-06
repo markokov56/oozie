@@ -1,0 +1,9 @@
+after downloading oozie release and untar it: you have to
+
+1/ build oozie 
+2/install server oozie
+oozie client (command line) is installed with ppzie server
+
+step1:
+to build oozie, run mkdistro.sh program
+
